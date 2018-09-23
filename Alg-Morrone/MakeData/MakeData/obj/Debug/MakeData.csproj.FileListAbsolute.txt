@@ -1,0 +1,14 @@
+C:\workspace\MakeData\MakeData\bin\Debug\MakeData.exe.config
+C:\workspace\MakeData\MakeData\bin\Debug\MakeData.exe
+C:\workspace\MakeData\MakeData\bin\Debug\MakeData.pdb
+C:\workspace\MakeData\MakeData\obj\Debug\MakeData.csprojAssemblyReference.cache
+C:\workspace\MakeData\MakeData\obj\Debug\MakeData.csproj.CoreCompileInputs.cache
+C:\workspace\MakeData\MakeData\obj\Debug\MakeData.exe
+C:\workspace\MakeData\MakeData\obj\Debug\MakeData.pdb
+C:\workspace\Alg-Morrone\MakeData\MakeData\bin\Debug\MakeData.exe.config
+C:\workspace\Alg-Morrone\MakeData\MakeData\bin\Debug\MakeData.exe
+C:\workspace\Alg-Morrone\MakeData\MakeData\bin\Debug\MakeData.pdb
+C:\workspace\Alg-Morrone\MakeData\MakeData\obj\Debug\MakeData.csprojAssemblyReference.cache
+C:\workspace\Alg-Morrone\MakeData\MakeData\obj\Debug\MakeData.csproj.CoreCompileInputs.cache
+C:\workspace\Alg-Morrone\MakeData\MakeData\obj\Debug\MakeData.exe
+C:\workspace\Alg-Morrone\MakeData\MakeData\obj\Debug\MakeData.pdb
