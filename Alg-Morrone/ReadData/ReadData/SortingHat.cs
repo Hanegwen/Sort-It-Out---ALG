@@ -151,7 +151,7 @@ namespace ReadData
 
             Tuple<int, Guid, double> temp;
 
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < Values.Count; i++)
             {
                 for (int j = 0; j < Values.Count - 1; j++)
                 {
