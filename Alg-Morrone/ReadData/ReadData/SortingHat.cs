@@ -64,12 +64,18 @@ namespace ReadData
             {
                 DataReader(DataToPrint);
             }
+
+            else
+            {
+                Console.WriteLine(DataToPrint[InputValue]);
+            }
             
         }
 
         void InsertionbyId(List<Tuple<int, Guid, double>> Values) //http://anh.cs.luc.edu/170/notes/CSharpHtml/sorting.html //Works
         {
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+
             for (int i = 0; i < Values.Count - 1; i++)
             {
                 for (int j = i + 1; j > 0; j--)
@@ -84,13 +90,16 @@ namespace ReadData
                     Console.WriteLine(Values[j]);
                 }
             }
-            Console.WriteLine(DateTime.Now);
-            
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
+
+
         }
 
         void InsertionByGuid(List<Tuple<int, Guid, double>> Values) //works
         {
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+
+
             for (int i = 0; i < Values.Count - 1; i++)
             {
                 for (int j = i + 1; j > 0; j--)
@@ -108,13 +117,15 @@ namespace ReadData
                 }
             }
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
+
         }
-       
+
 
         void InsertionByDouble(List<Tuple<int, Guid, double>> Values) //works
         {
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds(); 
+            
             for (int i = 0; i < Values.Count - 1; i++)
             {
                 for (int j = i + 1; j > 0; j--)
@@ -130,13 +141,14 @@ namespace ReadData
                 }
             }
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
         }
 
 
         void BubbleByID(List<Tuple<int, Guid, double>> Values)  //https://en.wikipedia.org/wiki/Bubble_sort
         {
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+
             Tuple<int, Guid, double> temp;
 
             for (int i = 0; i < 1; i++)
@@ -153,13 +165,16 @@ namespace ReadData
                 }
             }
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
+
         }
-                                                               
+
         void BubbleByGuid(List<Tuple<int, Guid, double>> Values)
         {
 
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+
+
             Tuple<int, Guid, double> temp;
             for (int i = 0; i < Values.Count; i++)
             {
@@ -179,7 +194,8 @@ namespace ReadData
                 }
             }
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
+
         }
         /// <summary>
         /// This is used to split up the Hexadecimals because they were too big to convert to any numerical types
@@ -214,7 +230,9 @@ namespace ReadData
 
         void BubbleByDouble(List<Tuple<int, Guid, double>> Values)
         {
-            Console.WriteLine(DateTime.Now);
+            long locaTime = DateTimeOffset.Now.ToUnixTimeMilliseconds();
+
+
             Tuple<int, Guid, double> temp;
 
             for (int i = 0; i < Values.Count; i++)
@@ -231,7 +249,8 @@ namespace ReadData
                 }
             }
 
-            Console.WriteLine(DateTime.Now);
+            Console.WriteLine((DateTimeOffset.Now.ToUnixTimeMilliseconds() - locaTime));
+
         }
     }
 }
