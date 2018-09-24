@@ -9,15 +9,16 @@ namespace ReadData
     class Program
     {
         static void Main(string[] args)
+
         {
 
             Console.ReadLine();
 
             SortingHat sortingHat = new SortingHat();
 
-            //string[] TheBaseData = System.IO.File.ReadAllLines(@"C:\workspace\writeLine.txt");
-            string[] TheBaseData = System.IO.File.ReadAllLines(@"E:\Columbia\Senior\Algorithms\writeLine.txt"); //For Mike's Computer
-
+            string[] TheBaseData = System.IO.File.ReadAllLines(@"C:\workspace\writeLine.txt");
+            //string[] TheBaseData = System.IO.File.ReadAllLines(@"E:\Columbia\Senior\Algorithms\writeLine.txt"); //For Mike's Computer
+            //string[] TheBaseData = System.IO.File.ReadAllLines(@"C:\Workspace\writeLine.txt"); //For Luke's Computer
 
 
 
@@ -50,11 +51,13 @@ namespace ReadData
             
             
             
-            //System.IO.File.WriteAllLines(@"C:\workspace\writeLine1.txt", TheFinalSortedData);
-            System.IO.File.WriteAllLines(@"E:\Columbia\Senior\Algorithms\writeLine.txt", TheFinalSortedData); //For Mike's Computer
+            System.IO.File.WriteAllLines(@"C:\workspace\writeLine1.txt", TheFinalSortedData);
+            //System.IO.File.WriteAllLines(@"E:\Columbia\Senior\Algorithms\writeLine.txt", TheFinalSortedData); //For Mike's Computer
+            //System.IO.File.WriteAllLines(@"C:\Workspace\writeLine.txt", TheFinalSortedData); //For Mike's Computer
 
 
-            //sortingHat.DataReader(TheFinalSortedData);
+
+            sortingHat.DataReader(TheFinalSortedData);
 
             Console.ReadLine();
         }

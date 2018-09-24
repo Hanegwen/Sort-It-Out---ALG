@@ -30,3 +30,17 @@ E:\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.cs
 E:\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.csproj.CoreCompileInputs.cache
 E:\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.exe
 E:\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.pdb
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.exe.config
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.exe
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.pdb
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.csprojAssemblyReference.cache
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.csproj.CoreCompileInputs.cache
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.exe
+C:\Users\Weowm\Downloads\Alg-Morrone (1)\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.pdb
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.exe.config
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.exe
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\bin\Debug\ReadData.pdb
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.csprojAssemblyReference.cache
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.csproj.CoreCompileInputs.cache
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.exe
+C:\workspace\Alg-Morrone -Uritescu\Alg-Morrone -Uritescu\Alg-Morrone\ReadData\ReadData\obj\Debug\ReadData.pdb
